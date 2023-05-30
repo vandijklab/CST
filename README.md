@@ -1,7 +1,8 @@
 # Continuous Spatiotemporal Transformers
 
 Pytorch implementation of the Continuous Spatiotemporal Transformers (CST)
-![CST Workflow](resources/CST_method_github.png)
+
+<img src="resources/CST_method_github.png" width=50% height=50%>
 
 
 # Quickstart
@@ -20,7 +21,7 @@ conda activate cst
 ```
 
 
-If you use NIDE or any part of it in your own work, please cite [Fonseca et al]([https://arxiv.org/abs/2206.14282](https://arxiv.org/abs/2301.13338)):
+If you use CST or any part of it in your own work, please cite [Fonseca et al]([https://arxiv.org/abs/2206.14282](https://arxiv.org/abs/2301.13338)):
 ```
 @article{fonseca2023continuous,
   title={Continuous Spatiotemporal Transformers},
@@ -38,7 +39,7 @@ The toy data has been obtained by solving analytical IDEs in 2D and 4Ds. The ker
 The scripts for the toy data generation can be found [here](resources/NIDE_method_github.png).
 
 # Tutorial
-For an example on how to use CST to model dynamics, consult this [notebook](main-toyData.ipynb) in which NIDE is used to model the toy dataset described above.
+For an example on how to use CST to model dynamics, consult this [notebook](main-toyData.ipynb) in which CST is used to model the toy dataset described above.
 
 
 # Manual Environment Creation
@@ -46,8 +47,8 @@ If the `cst.yml` file does not successfully recreate the environment for you, yo
 
 1. Create and activate an anaconda environment with Python version 3.8:
 ```
-conda create -n neural_ide python=3.8
-conda activate neural_ide
+conda create -n cst python=3.8
+conda activate cst
 ```
 
 2. Install Pytorch: `conda install pytorch==1.12.0 torchvision==0.13.0 cudatoolkit=11.3 -c pytorch`
